@@ -14,7 +14,7 @@ import (
 	_ "github.com/containers/image/v5/openshift"
 	_ "github.com/containers/image/v5/sif"
 	_ "github.com/containers/image/v5/tarball"
-
+	_ "github.com/containers/image/v5/nix"
 	// The ostree transport is registered by ostree*.go
 	// The storage transport is registered by storage*.go
 	"github.com/containers/image/v5/transports"
